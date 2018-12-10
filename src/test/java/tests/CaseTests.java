@@ -1,9 +1,10 @@
 package tests;
 
-import com.mysql.jdbc.Statement;
+
 import controller.orquestador_w;
 import java.io.File;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -41,16 +42,24 @@ public class CaseTests extends BaseTest {
         String dateF = dateForm.format(fecha);
         orquestador_w ow = new orquestador_w(dateF);
         // Escenarios
-        
+
         // List Escenarios
         System.out.println("PRUEBA JENKINS BD");
         Conexion con = new Conexion();
         System.out.println("-------------------");
-        con.conexion();
+        try {
+            con.conexion();
+            Statement s = con.conexion().createStatement();
+            ResultSet suits = s.executeQuery("SELECT * FROM suits;");
+            while (suits.next()) {                
+                System.out.println("SUITES: " + suits.getString(2)); 
+            }
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
         System.out.println("-------------------");
 
         // Pasos
-
         // Datos de Orquestador
 //        String actionW = "Ingresar URL";
 //        String explorer = "Chrome";
