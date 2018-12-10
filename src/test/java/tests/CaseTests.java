@@ -2,9 +2,6 @@ package tests;
 
 import com.mysql.jdbc.Statement;
 import controller.orquestador_w;
-import entities.Escenarios;
-import entities.Pasos;
-import entities.Usuarios;
 import java.io.File;
 import java.sql.ResultSet;
 import java.text.DateFormat;
