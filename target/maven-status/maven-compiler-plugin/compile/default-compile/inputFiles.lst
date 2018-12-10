@@ -1,10 +1,88 @@
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\HomePage.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\BasePage.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\ActionWeb.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\ActionDesktop.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\LeerExcel.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\RegisterPage.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\Main.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\MenuPage.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\ActionGui.java
-C:\Users\Fabio Betancourt\Documents\NetBeansProjects\Plantilla-Automatizacion-Report-2018\src\main\java\pages\LoginPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\RegisterPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\doChar.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\CloseAndQuit.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\f5Page.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\RightClickWindow.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\GetTagName.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\getText.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\click.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToBackTab.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\executeJs.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\find.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\wait.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\AbrirPestana.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\MoveToElementCoord.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\isEnabled.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Submit.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\captureImage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\waitSeconds.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\LoginPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\ClickMouse.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\getLocation.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\copiAllRobot.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\ActionDesktop.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\IsSelected.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\switchToFrame.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\model\LeerExcel.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\DobleClick.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\GetGui.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\ActionGui.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\LeerExcel.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\pageLoadTimeout_SECONDS.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\escribirGui.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Sendkey.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\clickRight.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\controller\Class_Web\NewActionWeb.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\ContainsElements.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\cleanSikuli.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\keyboard.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\GetCssValue.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\clickEspera.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\doubleClick.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\forwardPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToAlertDismiss.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToAlertText.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\AbrirNavegador.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Scroll.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\pegarGui.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\ClickJS.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\escribirRobot.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\doubleClickEspecial.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\IsDisplayed.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\paste.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\MenuPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\controller\Class_Gui\ActionGui.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\ClickRobot.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\GetDriver.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Click.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\RightClick2.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\cerrarAplicacion.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\implicitlyWait_SECONDS.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\controller\Class_Web\ActionWeb.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\desmarcarTodosCheck.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\DragAndDrop.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\model\Conexion.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\HomePage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\Main.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToAlert.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\clickWithRobot.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToNewTab.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\controller\orquestador_w.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\desmarcarCheck.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\marcarTodosCheck.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\validarModal.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\GetAttribute.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\validateNull.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\ActionWeb.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\RightClick.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToAlertDesfaultContent.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Clear.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\Captures.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\MoveToElement.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\clickEspecial.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\BackPage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Gui_Functions\spell.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\borrarCookies.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\SwitchToAlertAccept.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\pages\BasePage.java
+C:\Users\SQA\Documents\NetBeansProjects\Framework SQA IC\frameworkSQAIC\src\main\java\Web_Functions\finalizarProcesos.java

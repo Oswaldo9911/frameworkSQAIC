@@ -1,5 +1,6 @@
 package tests;
 
+import Web_Functions.GetDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,19 +12,14 @@ import pages.ActionGui;
 import pages.LeerExcel;
 
 /**
- * 
+ *
  * @author Oswaldo Buitrago SQA S.A - fabio.betancourt@sqasa.com
  */
-
 public class BaseTest {
 
-    public WebDriver driver;
-    public WebDriverWait wait;
+   
     public static ActionGui as = new ActionGui();
-
-    public WebDriver getDriver() {
-        return driver;
-    }
+    public static GetDriver driver;
 
     @BeforeClass
     public void setup() {
@@ -33,20 +29,24 @@ public class BaseTest {
         String valor = leer.getCellData("ColsubsidioOpera", "Numero De Habitacion", 2);
         as = new ActionGui();
         System.out.println("Prueba Excel: " + valor);
-        System.setProperty("webDriver.chrome.Driver", System.getProperty("user.dir") + "\\chromedriver.exe");
-
-        driver = new ChromeDriver();
-
-        //Crea una espera Todas las clases de prueba usan esto.
-        wait = new WebDriverWait(driver, 15);
-
-        //Maximizar ventana
-        driver.manage().window().maximize();
+        driver = new GetDriver();
     }
 
     @AfterClass
     public void teardown() {
-        driver.quit();
+        driver.getDriver().quit();
     }
+
+    public static GetDriver getDriver() {
+        return driver;
+    }
+
+    public static void setDriver(GetDriver driver) {
+        BaseTest.driver = driver;
+    }
+    
+    
+
+
 
 }

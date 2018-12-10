@@ -52,7 +52,7 @@ public class TestListener extends BaseTest implements ITestListener {
 
         //Get driver from BaseTest and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
-        WebDriver webDriver = ((BaseTest) testClass).getDriver();
+        WebDriver webDriver = ((BaseTest) testClass).getDriver().getDriver();
 
         //Take base64Screenshot screenshot.
         String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)webDriver).

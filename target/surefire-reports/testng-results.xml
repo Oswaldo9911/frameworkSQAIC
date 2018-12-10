@@ -1,36 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="N11 Test Suite" duration-ms="37277" started-at="2018-10-02T20:36:46Z" finished-at="2018-10-02T20:37:23Z">
+  <suite name="N11 Test Suite" duration-ms="17744" started-at="2018-12-10T20:00:20Z" finished-at="2018-12-10T20:00:38Z">
     <groups>
     </groups>
-    <test name="CaseTest" duration-ms="37277" started-at="2018-10-02T20:36:46Z" finished-at="2018-10-02T20:37:23Z">
+    <test name="CaseTest" duration-ms="17744" started-at="2018-12-10T20:00:20Z" finished-at="2018-12-10T20:00:38Z">
       <class name="tests.CaseTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CaseTests@28d25987]" name="setup" is-config="true" duration-ms="20215" started-at="2018-10-02T20:36:46Z" finished-at="2018-10-02T20:37:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CaseTests@14acaea5]" name="setup" is-config="true" duration-ms="1271" started-at="2018-12-10T20:00:20Z" finished-at="2018-12-10T20:00:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginBootstrap()[pri:0, instance:tests.CaseTests@28d25987]" name="loginBootstrap" duration-ms="8406" started-at="2018-10-02T20:37:06Z" description="Escenario de inicio de sesion" finished-at="2018-10-02T20:37:15Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.CaseTests@14acaea5]" name="test" duration-ms="10532" started-at="2018-12-10T20:00:22Z" data-provider="FrameworkSQAIC" finished-at="2018-12-10T20:00:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ingresar URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://blackrockdigital.github.io/startbootstrap-sb-admin/login.html]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginBootstrap -->
-        <test-method status="PASS" signature="menuBootstrap()[pri:1, instance:tests.CaseTests@28d25987]" name="menuBootstrap" duration-ms="2340" started-at="2018-10-02T20:37:15Z" description="Menu de sistema" finished-at="2018-10-02T20:37:17Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.CaseTests@14acaea5]" name="test" duration-ms="5100" started-at="2018-12-10T20:00:32Z" data-provider="FrameworkSQAIC" finished-at="2018-12-10T20:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Esperar (Millisegundos)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- menuBootstrap -->
-        <test-method status="PASS" signature="registroSistema()[pri:2, instance:tests.CaseTests@28d25987]" name="registroSistema" duration-ms="5494" started-at="2018-10-02T20:37:17Z" description="Registro en el Sistema" finished-at="2018-10-02T20:37:22Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.CaseTests@14acaea5]" name="test" duration-ms="133" started-at="2018-12-10T20:00:37Z" data-provider="FrameworkSQAIC" finished-at="2018-12-10T20:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[XPath]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45645boasdasdasd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registroSistema -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.CaseTests@28d25987]" name="teardown" is-config="true" duration-ms="800" started-at="2018-10-02T20:37:22Z" finished-at="2018-10-02T20:37:23Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.CaseTests@14acaea5]" name="teardown" is-config="true" duration-ms="669" started-at="2018-12-10T20:00:37Z" finished-at="2018-12-10T20:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="pruebaPosicion()[pri:3, instance:tests.CaseTests@28d25987]" name="pruebaPosicion" duration-ms="0" started-at="2018-10-02T20:37:22Z" description="Prueba Posicion" finished-at="2018-10-02T20:37:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pruebaPosicion -->
       </class> <!-- tests.CaseTests -->
     </test> <!-- CaseTest -->
   </suite> <!-- N11 Test Suite -->

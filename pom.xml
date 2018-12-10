@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>extentreportsexample</groupId>
-    <artifactId>plantillaAutomatizacionReport</artifactId>
+    <artifactId>frameworkSQAIC</artifactId>
     <version>1.0-SNAPSHOT</version>
     
     <properties>
@@ -91,7 +91,23 @@
             <artifactId>jsch</artifactId>
             <version>0.1.54</version>
         </dependency>
-        
+        <!--Conexion Bd Framework-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.23</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>eclipselink</artifactId>
+            <version>2.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+            <version>2.5.2</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     
 
@@ -142,5 +158,5 @@
             </plugin>
         </plugins>
     </build>
-    <name>plantillaAutomatizacionReport</name>
+    <name>frameworkSQAIC</name>
 </project>

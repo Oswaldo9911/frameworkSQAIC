@@ -1,5 +1,6 @@
 package utils.Listeners;
 
+import Web_Functions.GetDriver;
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,7 +32,7 @@ public class Retry implements IRetryAnalyzer {
 
     public void extendReportsFailOperations (ITestResult iTestResult) {
         Object testClass = iTestResult.getInstance();
-        WebDriver webDriver = ((BaseTest) testClass).getDriver();
+        WebDriver webDriver = ((GetDriver) testClass).getDriver();
         String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)webDriver).getScreenshotAs(OutputType.BASE64);
         ExtentTestManager.getTest().log(LogStatus.FAIL,"Test Failed",
                 ExtentTestManager.getTest().addBase64ScreenShot(base64Screenshot));
